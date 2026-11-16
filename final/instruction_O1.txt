@@ -1,0 +1,3782 @@
+=> 0x80000068 <main>:	addi	sp,sp,-48
+0x8000006c in main ()
+=> 0x8000006c <main+4>:	sw	ra,44(sp)
+0x80000070 in main ()
+=> 0x80000070 <main+8>:	sw	s0,40(sp)
+0x80000074 in main ()
+=> 0x80000074 <main+12>:	sw	s1,36(sp)
+0x80000078 in main ()
+=> 0x80000078 <main+16>:	sw	s2,32(sp)
+0x8000007c in main ()
+=> 0x8000007c <main+20>:	sw	s3,28(sp)
+0x80000080 in main ()
+=> 0x80000080 <main+24>:	sw	s4,24(sp)
+0x80000084 in main ()
+=> 0x80000084 <main+28>:	sw	s5,20(sp)
+0x80000088 in main ()
+=> 0x80000088 <main+32>:	sw	s6,16(sp)
+0x8000008c in main ()
+=> 0x8000008c <main+36>:	sw	s7,12(sp)
+0x80000090 in main ()
+=> 0x80000090 <main+40>:	sw	s8,8(sp)
+0x80000094 in main ()
+=> 0x80000094 <main+44>:	sw	s9,4(sp)
+0x80000098 in main ()
+=> 0x80000098 <main+48>:	lui	s0,0x80002
+0x8000009c in main ()
+=> 0x8000009c <main+52>:	addi	s0,s0,496
+0x800000a0 in main ()
+=> 0x800000a0 <main+56>:	addi	s2,s0,172
+0x800000a4 in main ()
+=> 0x800000a4 <main+60>:	mv	a2,s0
+0x800000a8 in main ()
+=> 0x800000a8 <main+64>:	lui	a3,0x12c
+0x800000ac in main ()
+=> 0x800000ac <main+68>:	addi	a3,a3,1219
+0x800000b0 in main ()
+=> 0x800000b0 <main+72>:	lui	a7,0x196
+0x800000b4 in main ()
+=> 0x800000b4 <main+76>:	addi	a7,a7,1549
+0x800000b8 in main ()
+=> 0x800000b8 <main+80>:	lui	a6,0x3c6ef
+0x800000bc in main ()
+=> 0x800000bc <main+84>:	addi	a6,a6,863
+0x800000c0 in main ()
+=> 0x800000c0 <main+88>:	lui	a0,0x446f8
+0x800000c4 in main ()
+=> 0x800000c4 <main+92>:	addi	a0,a0,1623
+0x800000c8 in main ()
+=> 0x800000c8 <main+96>:	li	t1,101
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x800000cc in main ()
+=> 0x800000cc <main+100>:	mul	a3,a3,a7
+0x800000d0 in main ()
+=> 0x800000d0 <main+104>:	add	a3,a3,a6
+0x800000d4 in main ()
+=> 0x800000d4 <main+108>:	srli	a4,a3,0x10
+0x800000d8 in main ()
+=> 0x800000d8 <main+112>:	mulhu	a5,a4,a0
+0x800000dc in main ()
+=> 0x800000dc <main+116>:	sub	a1,a4,a5
+0x800000e0 in main ()
+=> 0x800000e0 <main+120>:	srli	a1,a1,0x1
+0x800000e4 in main ()
+=> 0x800000e4 <main+124>:	add	a5,a5,a1
+0x800000e8 in main ()
+=> 0x800000e8 <main+128>:	srli	a5,a5,0x6
+0x800000ec in main ()
+=> 0x800000ec <main+132>:	mul	a5,a5,t1
+0x800000f0 in main ()
+=> 0x800000f0 <main+136>:	sub	a4,a4,a5
+0x800000f4 in main ()
+=> 0x800000f4 <main+140>:	sw	a4,0(a2)
+0x800000f8 in main ()
+=> 0x800000f8 <main+144>:	addi	a2,a2,4
+0x800000fc in main ()
+=> 0x800000fc <main+148>:	bne	a2,s2,0x800000cc <main+100>
+0x80000100 in main ()
+=> 0x80000100 <main+152>:	lui	a5,0x80001
+0x80000104 in main ()
+=> 0x80000104 <main+156>:	lw	s5,476(a5)
+0x80000108 in main ()
+=> 0x80000108 <main+160>:	mv	s1,s0
+0x8000010c in main ()
+=> 0x8000010c <main+164>:	li	s7,0
+0x80000110 in main ()
+=> 0x80000110 <main+168>:	li	s3,0
+0x80000114 in main ()
+=> 0x80000114 <main+172>:	lui	s4,0x80002
+0x80000118 in main ()
+=> 0x80000118 <main+176>:	addi	s4,s4,496
+0x8000011c in main ()
+=> 0x8000011c <main+180>:	li	s6,58
+0x80000120 in main ()
+=> 0x80000120 <main+184>:	li	s8,1
+0x80000124 in main ()
+=> 0x80000124 <main+188>:	j	0x8000013c <main+212>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000038 in get_bucket ()
+=> 0x80000038 <get_bucket+12>:	li	a4,64
+0x8000003c in get_bucket ()
+=> 0x8000003c <get_bucket+16>:	li	a0,1
+0x80000040 in get_bucket ()
+=> 0x80000040 <get_bucket+20>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000044 in get_bucket ()
+=> 0x80000044 <get_bucket+24>:	li	a4,74
+0x80000048 in get_bucket ()
+=> 0x80000048 <get_bucket+28>:	li	a0,2
+0x8000004c in get_bucket ()
+=> 0x8000004c <get_bucket+32>:	bge	a4,a5,0x80000064 <get_bucket+56>
+0x80000050 in get_bucket ()
+=> 0x80000050 <get_bucket+36>:	li	a0,84
+0x80000054 in get_bucket ()
+=> 0x80000054 <get_bucket+40>:	slt	a0,a0,a5
+0x80000058 in get_bucket ()
+=> 0x80000058 <get_bucket+44>:	addi	a0,a0,3
+0x8000005c in get_bucket ()
+=> 0x8000005c <get_bucket+48>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000160 in main ()
+=> 0x80000160 <main+248>:	addi	s5,s5,1
+0x80000164 in main ()
+=> 0x80000164 <main+252>:	mv	s7,s8
+0x80000168 in main ()
+=> 0x80000168 <main+256>:	j	0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000013c in main ()
+=> 0x8000013c <main+212>:	lw	s9,0(s1)
+0x80000140 in main ()
+=> 0x80000140 <main+216>:	mv	a0,s9
+0x80000144 in main ()
+=> 0x80000144 <main+220>:	jal	0x8000002c <get_bucket>
+0x8000002c in get_bucket ()
+=> 0x8000002c <get_bucket>:	mv	a5,a0
+0x80000030 in get_bucket ()
+=> 0x80000030 <get_bucket+4>:	li	a4,49
+0x80000034 in get_bucket ()
+=> 0x80000034 <get_bucket+8>:	bge	a4,a0,0x80000060 <get_bucket+52>
+0x80000060 in get_bucket ()
+=> 0x80000060 <get_bucket+52>:	li	a0,0
+0x80000064 in get_bucket ()
+=> 0x80000064 <get_bucket+56>:	ret
+0x80000148 in main ()
+=> 0x80000148 <main+224>:	slli	a5,a0,0x2
+0x8000014c in main ()
+=> 0x8000014c <main+228>:	add	a5,s4,a5
+0x80000150 in main ()
+=> 0x80000150 <main+232>:	lw	a5,172(a5)
+0x80000154 in main ()
+=> 0x80000154 <main+236>:	addi	a5,a5,1
+0x80000158 in main ()
+=> 0x80000158 <main+240>:	add	s3,s3,s9
+0x8000015c in main ()
+=> 0x8000015c <main+244>:	bge	s6,s9,0x80000128 <main+192>
+0x80000128 in main ()
+=> 0x80000128 <main+192>:	slli	a0,a0,0x2
+0x8000012c in main ()
+=> 0x8000012c <main+196>:	add	a0,s4,a0
+0x80000130 in main ()
+=> 0x80000130 <main+200>:	sw	a5,172(a0)
+0x80000134 in main ()
+=> 0x80000134 <main+204>:	addi	s1,s1,4
+0x80000138 in main ()
+=> 0x80000138 <main+208>:	beq	s1,s2,0x8000016c <main+260>
+0x8000016c in main ()
+=> 0x8000016c <main+260>:	beqz	s7,0x80000178 <main+272>
+0x80000170 in main ()
+=> 0x80000170 <main+264>:	lui	a5,0x80001
+0x80000174 in main ()
+=> 0x80000174 <main+268>:	sw	s5,476(a5)
+0x80000178 in main ()
+=> 0x80000178 <main+272>:	lui	a4,0x2fa0c
+0x8000017c in main ()
+=> 0x8000017c <main+276>:	addi	a4,a4,-381
+0x80000180 in main ()
+=> 0x80000180 <main+280>:	mulh	a4,s3,a4
+0x80000184 in main ()
+=> 0x80000184 <main+284>:	srai	a4,a4,0x3
+0x80000188 in main ()
+=> 0x80000188 <main+288>:	srai	s3,s3,0x1f
+0x8000018c in main ()
+=> 0x8000018c <main+292>:	sub	a4,a4,s3
+0x80000190 in main ()
+=> 0x80000190 <main+296>:	lui	a5,0x80001
+0x80000194 in main ()
+=> 0x80000194 <main+300>:	lw	a3,480(a5)
+0x80000198 in main ()
+=> 0x80000198 <main+304>:	li	a2,0
+0x8000019c in main ()
+=> 0x8000019c <main+308>:	li	a1,1
+0x800001a0 in main ()
+=> 0x800001a0 <main+312>:	j	0x800001ac <main+324>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001ac in main ()
+=> 0x800001ac <main+324>:	lw	a5,0(s0)
+0x800001b0 in main ()
+=> 0x800001b0 <main+328>:	bge	a5,a4,0x800001a4 <main+316>
+0x800001b4 in main ()
+=> 0x800001b4 <main+332>:	ori	a5,a5,256
+0x800001b8 in main ()
+=> 0x800001b8 <main+336>:	sw	a5,0(s0)
+0x800001bc in main ()
+=> 0x800001bc <main+340>:	addi	a3,a3,1
+0x800001c0 in main ()
+=> 0x800001c0 <main+344>:	mv	a2,a1
+0x800001c4 in main ()
+=> 0x800001c4 <main+348>:	j	0x800001a4 <main+316>
+0x800001a4 in main ()
+=> 0x800001a4 <main+316>:	addi	s0,s0,4
+0x800001a8 in main ()
+=> 0x800001a8 <main+320>:	beq	s0,s2,0x800001c8 <main+352>
+0x800001c8 in main ()
+=> 0x800001c8 <main+352>:	beqz	a2,0x800001d4 <main+364>
+0x800001cc in main ()
+=> 0x800001cc <main+356>:	lui	a5,0x80001
+0x800001d0 in main ()
+=> 0x800001d0 <main+360>:	sw	a3,480(a5)
+0x800001d4 in main ()
+=> 0x800001d4 <main+364>:	j	0x800001d4 <main+364>
+Total dynamic instructions: 1891
